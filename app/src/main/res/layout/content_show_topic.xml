@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_show_topic"
+    tools:context="org.consultant.kubby.karak.ShowTopicActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="71dp"
+            android:text="New Text"
+            android:id="@+id/topicTitle"
+            android:layout_gravity="center_horizontal|top" />
+
+        <TextView
+            android:layout_width="260dp"
+            android:layout_height="308dp"
+            android:text="New Text"
+            android:id="@+id/topicSymptoms"
+            android:layout_gravity="center" />
+    </FrameLayout>
+</RelativeLayout>
